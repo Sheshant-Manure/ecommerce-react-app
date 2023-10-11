@@ -10,7 +10,7 @@ const ProductsList = () => {
     useEffect(() => {
         const fetchAPI = async () => {
         try {
-            const response = await fetch('https://my-json-server.typicode.com/Sheshant-Manure/ecommerce-react-app/products');
+            const response = await fetch('https://my-json-server.typicode.com/Sheshant-Manure/products-api/products');
             if (!response.ok) {
             throw new Error("Something went wrong!");
             }
@@ -24,24 +24,14 @@ const ProductsList = () => {
             fetchAPI();
         }, [dispatch]); 
   return (
-    // <div className='container'>
-    //     <ol>
-    //       {albums.map((album, i)=>(
-    //         <div key={i} className='album-box'>
-    //           <li><b>{album.title}</b></li>
-    //           <div><small>Album Id: {album.id}</small></div>
-    //           <div><small>User Id: {album.userId}</small></div>
-    //         </div>
-    //       ))}
-    //     </ol>
-    //   </div>
     <div className='container'>
-        <ol>
+        <ol className="centerbox">
             {console.log(products)}
             { products.map((product, i)=>(
                     <div key={i} className='product-box'>
-                        <li>{product.name}{product.imgURL}</li>
-                        <img src={product.imgURL} width="50px" alt={product.id} />
+                        <li>{product.name}</li>
+                        <img src={product.imgURL} width="50px" alt={product.id} /><br/>
+                        <span>&#8377; {product.price} /-</span>
                     </div>
                     ))
             }
