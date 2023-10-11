@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useSelector } from "react-redux";
 import { setProducts } from "../redux/reducers/productsSlice";
 import { useDispatch } from "react-redux";
+import '../Assets/productslist.css'
 
 const ProductsList = () => {
     const products = useSelector((state) => state.productsReducer.products);
@@ -23,15 +24,29 @@ const ProductsList = () => {
             fetchAPI();
         }, [dispatch]); 
   return (
-    <>
-    <ul>
-        { products.map((product, i)=>
-            {
-                return(<li key={i}>{product.name}</li>)
-            })
-        }
-    </ul>
-    </>
+    // <div className='container'>
+    //     <ol>
+    //       {albums.map((album, i)=>(
+    //         <div key={i} className='album-box'>
+    //           <li><b>{album.title}</b></li>
+    //           <div><small>Album Id: {album.id}</small></div>
+    //           <div><small>User Id: {album.userId}</small></div>
+    //         </div>
+    //       ))}
+    //     </ol>
+    //   </div>
+    <div className='container'>
+        <ol>
+            {console.log(products)}
+            { products.map((product, i)=>(
+                    <div key={i} className='product-box'>
+                        <li>{product.name}{product.imgURL}</li>
+                        <img src={product.imgURL} width="50px" alt={product.id} />
+                    </div>
+                    ))
+            }
+        </ol>
+    </div>
   )
 }
 
