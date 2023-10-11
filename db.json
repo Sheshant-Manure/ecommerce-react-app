@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "products": [
       {
         "id": 1,
@@ -143,3 +144,128 @@
     ]
   }
   
+=======
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S21",
+      "price": 59999,
+      "description": "Flagship smartphone with 108MP camera and 5G support."
+    },
+    {
+      "id": 2,
+      "name": "Apple MacBook Air",
+      "price": 92990,
+      "description": "Ultra-thin laptop with M1 chip for incredible performance."
+    },
+    {
+      "id": 3,
+      "name": "Sony 55-inch 4K Smart TV",
+      "price": 54999,
+      "description": "Immersive 4K HDR TV with Android TV OS."
+    },
+    {
+      "id": 4,
+      "name": "Canon EOS Rebel T7i",
+      "price": 49990,
+      "description": "High-quality DSLR camera for photography enthusiasts."
+    },
+    {
+      "id": 5,
+      "name": "Bose QuietComfort 35 II",
+      "price": 29990,
+      "description": "Premium noise-canceling headphones for ultimate sound."
+    },
+    {
+      "id": 6,
+      "name": "LG 43-inch Full HD LED TV",
+      "price": 25999,
+      "description": "Budget-friendly Full HD TV with smart features."
+    },
+    {
+      "id": 7,
+      "name": "Nikon D5600 DSLR",
+      "price": 56990,
+      "description": "Versatile DSLR camera with Wi-Fi and Bluetooth connectivity."
+    },
+    {
+      "id": 8,
+      "name": "Apple iPad Air",
+      "price": 54990,
+      "description": "Powerful iPad with A14 Bionic chip and stunning Retina display."
+    },
+    {
+      "id": 9,
+      "name": "Sony WH-1000XM4",
+      "price": 24990,
+      "description": "Wireless headphones with industry-leading noise cancellation."
+    },
+    {
+      "id": 10,
+      "name": "Dell XPS 13 Laptop",
+      "price": 97990,
+      "description": "Premium ultrabook with InfinityEdge display."
+    },
+    {
+      "id": 11,
+      "name": "GoPro HERO9 Black",
+      "price": 34990,
+      "description": "Action camera for capturing stunning 5K video."
+    },
+    {
+      "id": 12,
+      "name": "Samsung 32-inch HD Smart TV",
+      "price": 18999,
+      "description": "Compact smart TV with vivid HD display."
+    },
+    {
+      "id": 13,
+      "name": "Canon EOS 90D",
+      "price": 79990,
+      "description": "Pro-grade DSLR camera with 4K video recording."
+    },
+    {
+      "id": 14,
+      "name": "Google Pixel 6",
+      "price": 59999,
+      "description": "Google's latest smartphone with impressive camera capabilities."
+    },
+    {
+      "id": 15,
+      "name": "LG 65-inch OLED 4K TV",
+      "price": 139999,
+      "description": "Stunning OLED TV with Dolby Vision and webOS."
+    },
+    {
+      "id": 16,
+      "name": "Fitbit Versa 3",
+      "price": 25990,
+      "description": "Fitness smartwatch with built-in GPS and heart rate monitoring."
+    },
+    {
+      "id": 17,
+      "name": "DJI Mavic Air 2 Drone",
+      "price": 95990,
+      "description": "Advanced drone for aerial photography and videography."
+    },
+    {
+      "id": 18,
+      "name": "Bose SoundLink Revolve+",
+      "price": 24990,
+      "description": "Portable Bluetooth speaker with 360-degree sound."
+    },
+    {
+      "id": 19,
+      "name": "Sony PlayStation 5",
+      "price": 49990,
+      "description": "Next-gen gaming console for immersive gaming experiences."
+    },
+    {
+      "id": 20,
+      "name": "Amazon Echo Dot (4th Gen)",
+      "price": 3499,
+      "description": "Smart speaker with Alexa for voice control and music playback."
+    }
+  ]
+}
+>>>>>>> c7c5243e4092c1d13e45e142ceb6beff8707931a
