@@ -1,0 +1,62 @@
+.empty-cart {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-container {
+    width: 60vw;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 3px solid rgb(206, 232, 255);
+    margin: 7px;
+}
+
+.box1 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 {
+    width: 70%;
+}
+
+.box2 p {
+    margin: 5px;
+    font-size: small;
+    font-weight: 100;
+}
+
+.box2 h3, .box2 h4 {
+    margin: 5px;
+}
+
+.box3 {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box3 img {
+    margin: 5px;
+}
+
+.box3 img:hover {
+    cursor: pointer;
+}

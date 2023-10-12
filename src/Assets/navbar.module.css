@@ -1,8 +1,31 @@
 nav {
     width: 100vw;
     height: 50px;
-    background-color: red;
+    background-color: crimson;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    margin: 0px 50px;
+}
+
+.links li:hover {
+    cursor: pointer;
+    color: white;
+}
+
+h1 {
+    margin-left: 10%;
+}
+
+p {
+    margin-top: -21px;
+    margin-left: -15px;
+    font-weight: 900;
 }
